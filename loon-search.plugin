@@ -48,10 +48,10 @@
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gd\+([^&]+) https://www.google.com/search?q=%22Google+Drive%22+$1 302
 
 # bd (百度)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=bd\+([^&]+).+ https://www.baidu.com/s?wd=$2 302
 
 #默认google
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=([^&]+).+ https://www.google.com/search?q=$1 302
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=([^&]+).+ https://www.google.com/search?q=$2 302
 
 [MITM]
 hostname = m.baidu.com
