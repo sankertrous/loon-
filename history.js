@@ -6,7 +6,7 @@
  * 1 9 * * * https://raw.githubusercontent.com/dompling/Script/master/historyToday/index.js
  *
  */
-const $ = "//api.bubaijun.com/api/v1/today_in_history_all?token=512f5893a61056c4bc2375371715b604"("historyToday", true);
+const $ = new API("//api.bubaijun.com/api/v1/today_in_history_all?token=512f5893a61056c4bc2375371715b604", true);
 const titleName = "📆历史上的今天";
 const baseUrl = "http://code.lssdjt.com/jsondata";
 const headers = {
